@@ -1,0 +1,7 @@
+name: Manual Trigger
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "THIS IS A MESSAGE."
